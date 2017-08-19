@@ -20,3 +20,6 @@ LOCAL_PATH := device/samsung/gprimelte-common
 
 # Include board config fragments
 include $(LOCAL_PATH)/board/*.mk
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
