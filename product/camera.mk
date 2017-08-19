@@ -1,6 +1,6 @@
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # Media (camera) configuration files
 PRODUCT_COPY_FILES += \
