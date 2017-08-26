@@ -21,3 +21,6 @@ EXTENDED_BUILD_TYPE=OFFICIAL
 
 # Use Magisk
 DEFAULT_ROOT_METHOD := magisk
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 540
